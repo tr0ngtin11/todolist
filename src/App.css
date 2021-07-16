@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background: #353f5b;
+}
+.container {
+  max-width: 400px;
+}
+.search i {
+  position: absolute;
+}
+.search {
+  position: relative;
+}
+.icon {
+  padding: 10px;
+  left: 0;
+}
+.input-field {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+}
+.todos li {
+  background: #423a6f;
+}
+.delete {
+  cursor: pointer;
+}
+
+
+.filtered{
+  display: none !important;
+}
+
+
+.search{
+position: relative;
+}
+.search i{
+  position: absolute;
+  right: -320px;
+}
+
+.icon , i{
+  cursor: pointer;
+}
+
+
+.add{
+  position: relative;
+}
+.right-input{
+  position: absolute;
+  color: #fff;
+  right: 17px;
+  top: 44px;
+}
+
+.choose-level{
+  display: flex;  
+
+}
+
+.marg{
+  margin-top:2px;
+  margin-left: 3.5px;
+}
+
+
+.red{
+  color: #CC0000;
+}
+.green{
+  color: #33CC33;
+}
+.yellow{
+  color: #CC6600;
+}
+
+.location{
+  position:absolute;
+  top:2px;
+  left: 0px;
+  width: 110px;
+  height:35px;
 }
